@@ -1,0 +1,12 @@
+
+<h2> Convert </h2>
+
+ <%= link_to "Home", root_path, class: "btn btn-lg btn-secondary" %>
+<h2> Convert integer to word </h2>
+<div class="col-md-12">
+  <input id="Text1" type="text" onkeypress="return onlyNumbers(this.value);" onkeyup="NumToWord(this.value,'divDisplayWords');"
+    maxlength="10" style="heading" />
+    <h3>
+      <div.handwrittening id="divDisplayWords"></div>
+    </h3>
+</div>
