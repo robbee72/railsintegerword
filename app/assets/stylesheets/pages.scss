@@ -4,8 +4,8 @@
 .btn-secondary:focus {
 	color: #333;
 	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #fff;
-	border: 0.05rem solid #fff;
+	background-color: #d0a4a4;
+	border: 0.1rem solid #fff;
 }
 
 /*
@@ -35,4 +35,12 @@ h5,
 h6,
 .h6 {
 	font-family: 'Roboto Slab', serif;
+}
+
+.footer {
+	position: inherit;
+	margin-top: -40px; /* negative value of footer height */
+	height: 150px;
+	clear: both;
+	padding-top: 20px;
 }
