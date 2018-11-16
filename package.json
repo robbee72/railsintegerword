@@ -1,5 +1,7 @@
 {
-  "name": "blog",
+  "name": "Convert",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "latest-version": "^4.0.0"
+  }
 }
